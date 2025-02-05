@@ -42,7 +42,4 @@ public class PriceEntity
 
     public Integer getProductId()
     {   return productId;}
-
-    //TEST BORRAME
-    //TEST BORRAME2 3
 }
