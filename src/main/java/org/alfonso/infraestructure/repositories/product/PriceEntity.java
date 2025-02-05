@@ -42,4 +42,7 @@ public class PriceEntity
 
     public Integer getProductId()
     {   return productId;}
+    /*
+    un comentario mas
+     */
 }
