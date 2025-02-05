@@ -22,8 +22,10 @@ public class PriceEntity
         this.productId = productId;
     }
 
+
     public Integer getBrandId()
     {   return brandId;}
+
 
     public String getCurrency()
     {   return currency;}
@@ -42,7 +44,5 @@ public class PriceEntity
 
     public Integer getProductId()
     {   return productId;}
-    /*
-    un comentario mas
-     */
+
 }
