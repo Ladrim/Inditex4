@@ -44,11 +44,4 @@ public class PriceEntity
     {   return productId;}
 
     //TEST BORRAME
-    //TEST2 BORRAME
-    //TEST3 BORRAME
-    //TEST4 BORRAME
-    //TEST5 BORRAME
-    //TEST6 BORRAME
-    //TEST7 BORRAME
-    //TEST8 BORRAME
 }
