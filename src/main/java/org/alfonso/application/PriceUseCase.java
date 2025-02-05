@@ -21,13 +21,13 @@ public class PriceUseCase
     public Optional<Price> findPrice1(ProductId productId, BrandId brandId, Date date)
     {
        Optional<Product> optionalProduct = productRepository.findByProductId(productId);
-       return optionalProduct.flatMap(it -> it.findBy1(brandId,date));
+       return optionalProduct.flatMap(product -> product.findBy1(brandId,date));
     }
 
     public Optional<Price> findPrice2(PriceByProductIdBrandIdAndDateCommand priceByProductIdBrandIdAndDateCommand)
     {
 
         Optional<Product> optionalProduct = productRepository.findByProductId(priceByProductIdBrandIdAndDateCommand.getProductId());
-        return  optionalProduct.flatMap(it->it.findBy2(priceByProductIdBrandIdAndDateCommand));
+        return  optionalProduct.flatMap(product -> product.findBy2(priceByProductIdBrandIdAndDateCommand));
     }
 }
