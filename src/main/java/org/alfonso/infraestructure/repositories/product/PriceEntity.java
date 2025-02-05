@@ -42,6 +42,4 @@ public class PriceEntity
 
     public Integer getProductId()
     {   return productId;}
-
-    //HAY UN MEGABUUUGGGGGGGGGG!!!!!!!!!!!!!!!!!!!!!
 }
