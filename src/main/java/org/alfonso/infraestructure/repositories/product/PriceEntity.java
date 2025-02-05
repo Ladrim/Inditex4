@@ -22,7 +22,6 @@ public class PriceEntity
         this.productId = productId;
     }
 
-
     public Integer getBrandId()
     {   return brandId;}
 
