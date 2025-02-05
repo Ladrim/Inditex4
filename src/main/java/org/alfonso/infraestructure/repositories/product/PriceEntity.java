@@ -25,7 +25,6 @@ public class PriceEntity
     public Integer getBrandId()
     {   return brandId;}
 
-
     public String getCurrency()
     {   return currency;}
 
